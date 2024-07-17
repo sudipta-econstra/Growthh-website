@@ -8,17 +8,16 @@ import blogThree from '../../../landingAssets/images/blog-3.jpg';
 function BlogHomeOne({ className }) {
     return (
         <>
-            <section className={`appie-blog-area pt-90 pb-95 ${className || ''}`}>
+            <section className={`appie-blog-area pt-0 pb-60 ${className || ''}`}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <div className="appie-section-title text-center">
-                                <h3 className="appie-title">Latest blog posts</h3>
-                                <p>Different layouts and styles for team sections.</p>
+                            <div className="appie-section-title text-center pb-0">
+                                <h3 className="appie-title">Latest Blog Posts</h3>
                             </div>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row justify-content-center">
                         <div className="col-lg-4 col-md-6">
                             <div
                                 className="appie-blog-item mt-30"
@@ -36,7 +35,7 @@ function BlogHomeOne({ className }) {
                                         </ul>
                                     </div>
                                     <h3 className="title">
-                                        <a href="/news/single-news">
+                                        <a href="#">
                                             Introducing New Apps Design for our iOS App
                                         </a>
                                     </h3>
@@ -63,7 +62,7 @@ function BlogHomeOne({ className }) {
                                         </ul>
                                     </div>
                                     <h3 className="title">
-                                        <a href="/news/single-news">
+                                        <a href="#">
                                             How to bring Dolce to your company
                                         </a>
                                     </h3>
@@ -90,7 +89,7 @@ function BlogHomeOne({ className }) {
                                         </ul>
                                     </div>
                                     <h3 className="title">
-                                        <a href="/news/single-news">
+                                        <a href="#">
                                             17 Effective Ways to Monetize Mobile Apps
                                         </a>
                                     </h3>

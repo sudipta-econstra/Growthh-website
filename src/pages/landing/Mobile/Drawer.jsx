@@ -61,6 +61,9 @@ function Drawer({ drawer, action, lang, modalShow }) {
                                             </li> : ""
                                         }
                                         <li className="menu-item-has-children active">
+                                            <a href='https://growthh.in/blog/'>Blog</a>
+                                        </li>
+                                        <li className="menu-item-has-children active">
                                             {/* <a href="/contact-us">Contact Us</a> */}
                                             <a href='#' onClick={modalShow}>Contact</a>
                                         </li>

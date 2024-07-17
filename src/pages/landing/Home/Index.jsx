@@ -9,7 +9,7 @@ import FooterHomeOne from './FooterHomeOne.jsx';
 import HeroHomeOne from './HeroHomeOne.jsx';
 import HomeOneHeader from './HomeOneHeader.jsx';
 import PricingHomeOne from './PricingHomeOne.jsx';
-import ProjectHomeOne from './ProjectHomeOne.jsx';
+import NewsletterHome from './ProjectHomeOne.jsx';
 import ServicesHomeOne from './ServicesHomeOne.jsx';
 import TeamHomeOne from './TeamHomeOne.jsx';
 import TestimonialHomeOne from './TestimonialHomeOne.jsx';
@@ -21,6 +21,7 @@ import Modal from 'react-bootstrap/Modal';
 import WhatsappCta from './WhatsappCta.js';
 import { Axios } from '../../auth/Enviroment.js';
 import { toast } from 'react-toastify';
+
 
 
 
@@ -70,9 +71,9 @@ function Index() {
             <TestimonialHomeOne />
             {/* <TeamHomeOne /> */}
             <PricingHomeOne modalShow={handleShow} />
-            <FaqHomeOne />
-            {/* <BlogHomeOne /> */}
-            <ProjectHomeOne />
+            <FaqHomeOne />            
+            <NewsletterHome />
+            <BlogHomeOne />
             <FooterHomeOne modalShow={handleShow} />
             <BackToTop />
             <WhatsappCta />

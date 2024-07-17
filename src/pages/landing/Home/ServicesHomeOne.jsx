@@ -17,7 +17,7 @@ function ServicesHomeOne({ className, modalShow }) {
                         <div className="appie-features-content text-center">
                             <span>Our Solutions</span>
                             <h2 className="title">
-                                Designed to provide you the best results
+                                Task Management Tools Provide Best Results
                             </h2>
                             <p>Get tasks done faster than ever, build and scale workflows, make data-driven decisions and achieve your goals.</p>
                         </div>

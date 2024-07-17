@@ -1,7 +1,7 @@
 import React from 'react';
 import projectThumb from '../../../landingAssets/images/newsletter3.webp';
 
-function ProjectHomeOne({ className }) {
+function NewsletterHome({ className }) {
     return (
         <>
             <section className={`appie-project-area pb-70 news-letter ${className || ''}`}>
@@ -39,4 +39,4 @@ function ProjectHomeOne({ className }) {
     );
 }
 
-export default ProjectHomeOne;
+export default NewsletterHome;

@@ -18,12 +18,12 @@ function HeroHomeOne({ className, modalShow }) {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="appie-hero-content">
-                                <span>Welcome to Growthh</span>
+                                <span>Choose the Best</span>
                                 <h1 className="appie-title">
-                                    Automate Business Operations
+                                    Business Management System in India
                                 </h1>
                                 <p>
-                                    Run Your Business Working Only 2 Days, Automate Tasks, Create Seamless Workflows, Enhance Efficiency by 80%.
+                                    Our Business Automation System is designed to streamline your operations, increase productivity, and drive growth.
                                 </p>
                                 <ul>
                                     <li>
@@ -33,7 +33,7 @@ function HeroHomeOne({ className, modalShow }) {
                                     </li>
                                     <li>
                                         <a className="item-2"  href='javascript:void(0);' onClick={modalShow}>
-                                            Get 15 Day Trial
+                                            Get Free Trial
                                         </a>
                                         {/* <a className="item-2" href="/register">
                                             Get 15 Day Trial

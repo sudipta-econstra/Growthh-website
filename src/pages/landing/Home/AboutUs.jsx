@@ -13,9 +13,9 @@ function AboutUs({ className, modalShow }) {
                 <div className="row align-items-center flex-row-reverse">
                     <div className="col-lg-5">
                         <div className="appie-features-content" >
-                            <span>About Growthh</span>
-                            <h2 className="title">Empower operations with Growthh.</h2>
-                            <p>Supercharge your operations with Growthh. Manage tasks, Create Smooth Workflows and Automate.</p>
+                            <span>Why Choose Growthh</span>
+                            <h2 className="title">Efficiency, User-Friendly Business System</h2>
+                            <p>Its offers everything you need—project management, accounting, CRM, and more—in one intuitive interface. Ideal for small to medium-sized businesses</p>
                             <a className="main-btn" href="javascript:void(0);" onClick={modalShow}>Sign Up Now!</a>
                             {/* <a className="main-btn" href="/register">Sign Up Now!</a> */}
                         </div>

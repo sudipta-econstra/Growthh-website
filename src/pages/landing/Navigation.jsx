@@ -26,6 +26,9 @@ function Navigation({ lang = false, modalShow }) {
                     </li>:""
                 }
                 <li>
+                    <a href='https://growthh.in/blog/'>Blog</a>
+                </li>
+                <li>
                     <a href='javascript:void(0);' onClick={modalShow}>Contact</a>
                 </li>
             </ul>

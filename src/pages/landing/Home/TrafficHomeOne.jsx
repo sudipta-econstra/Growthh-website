@@ -10,7 +10,7 @@ function TrafficHomeOne({ className, modalShow }) {
                     <div className="col-lg-7">
                         <div className="appie-traffic-title">
                             <span>WhatsApp Sales Bot</span>
-                            <h2 className="title">Increase Sales with AI Automation</h2>
+                            <h2 className="title mb-15">Increase Sales with Business Automation</h2>
                             <p>
                                 Empower marketing, product and support to orchestrate conversational flows across channels with AI powered Chatbots
                             </p>
