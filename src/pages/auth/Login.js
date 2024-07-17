@@ -1,0 +1,99 @@
+import React, { useEffect, useState } from 'react'
+import { Button } from 'react-bootstrap';
+import { Form, Link } from 'react-router-dom'
+import Loader from '../landing/loder/Loader';
+
+function Login() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  });
+  
+  const [showPassword, setShowPassword] = useState(false);
+  const togglePasswordVisibility = () => {
+    setShowPassword(!showPassword);
+  };
+  return (
+    <>
+      {loading && (
+        <div className={`appie-loader ${loading ? 'active' : ''}`}>
+          <Loader />
+        </div>
+      )}
+      <div className={`appie-visible ${loading === false ? 'active' : ''}`}>
+        <div className='login-auth-wrap'>
+          <div className='container'>
+            <div className='row justify-content-between align-items-center'>
+              <div className='col-lg-5 col-md-6 col-sm-12'>
+                <div className='loginBox'>
+                  <div className="logo-wrap">
+                    <a href="/"><img src={process.env.PUBLIC_URL + 'assets/images/logo-navy.png'} alt="Growthh" className='img-fluid' /></a>
+                  </div>
+                  <h1 className='login-title'>
+                    Welcome Back! <br />
+                    <span className='position-relative sign-in me-2'>
+                      <span>SIGN IN!</span>
+                      <svg viewBox="0 0 156 59" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-blue login-svg"><path d="M156 41C156 50.9411 147.89 58.735 138.408 55.7499C135.073 54.7001 131.284 53.8018 124.799 53.8018C109.2 53.8018 109.197 59 93.598 59C77.9988 59 77.9987 53.8018 62.3995 53.8018C46.8003 53.8018 46.7977 59 31.1985 59C24.7151 59 20.9263 58.102 17.5923 57.0526C8.1099 54.0677 0 45.7429 0 35.8018V18C0 8.05888 8.1099 0.265901 17.5923 3.2508C20.9263 4.30029 24.7151 5.19824 31.1985 5.19824C46.7977 5.19824 46.7977 0 62.3995 0C78.0013 0 77.9988 5.19824 93.598 5.19824C109.197 5.19824 109.197 0 124.799 0C131.284 0 135.073 0.898168 138.408 1.94782C147.89 4.93288 156 13.2571 156 23.1982V41Z" ></path></svg>
+                    </span>
+                    with your credentials.
+                  </h1>
+                  <div className='form-wrap'>
+                    <form className='w-100'>
+                      <div className="input-group mb-4">
+                        <div className="input-group-prepend">
+                          <div className="input-group-text"><i className="fi fi-rr-envelope"></i></div>
+                        </div>
+                        <input type="email" className="form-control" placeholder="Enter Your Email ID" />
+                      </div>
+
+
+                      <a href="/verify-otp" type="submit" name="submit" className="btn btn-exp-primary-dark w-100 f-s-18">Submit</a>
+                    </form>
+
+                  </div>
+                  <div className='or-sign my-4'>
+                    <span>Or, Sign in with</span>
+                  </div>
+                  <div className='other-login'>
+                    <a href="#" className='other-login-wrap'>
+                      <svg stroke="currentColor" fill="currentColor" strokeWidth={0} version="1.1" x="0px" y="0px" viewBox="0 0 48 48" enableBackground="new 0 0 48 48" className="other-login-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="#FFC107" d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12 c0-6.627,5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24 c0,11.045,8.955,20,20,20c11.045,0,20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z" /><path fill="#FF3D00" d="M6.306,14.691l6.571,4.819C14.655,15.108,18.961,12,24,12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657 C34.046,6.053,29.268,4,24,4C16.318,4,9.656,8.337,6.306,14.691z" /><path fill="#4CAF50" d="M24,44c5.166,0,9.86-1.977,13.409-5.192l-6.19-5.238C29.211,35.091,26.715,36,24,36 c-5.202,0-9.619-3.317-11.283-7.946l-6.522,5.025C9.505,39.556,16.227,44,24,44z" /><path fill="#1976D2" d="M43.611,20.083H42V20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571 c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z" /></svg>
+
+                      <span className="other-login-name">Google</span>
+                    </a>
+                    <a href="#" className='other-login-wrap'>
+                      <svg stroke="currentColor" fill="#1877f2" strokeWidth={0} viewBox="0 0 256 256" className="other-login-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M128,20A108,108,0,1,0,236,128,108.12,108.12,0,0,0,128,20Zm12,191.13V156h20a12,12,0,0,0,0-24H140V112a12,12,0,0,1,12-12h16a12,12,0,0,0,0-24H152a36,36,0,0,0-36,36v20H96a12,12,0,0,0,0,24h20v55.13a84,84,0,1,1,24,0Z" /></svg>
+
+                      <span className="other-login-name">Facebook</span>
+                    </a>
+                    <a href="#" className='other-login-wrap'>
+                      <svg stroke="currentColor" fill="#0a66c2" stroke-width="0" viewBox="0 0 256 256" class="other-login-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M216,20H40A20,20,0,0,0,20,40V216a20,20,0,0,0,20,20H216a20,20,0,0,0,20-20V40A20,20,0,0,0,216,20Zm-4,192H44V44H212ZM112,176V120a12,12,0,0,1,21.43-7.41A40,40,0,0,1,192,148v28a12,12,0,0,1-24,0V148a16,16,0,0,0-32,0v28a12,12,0,0,1-24,0ZM96,120v56a12,12,0,0,1-24,0V120a12,12,0,0,1,24,0ZM68,80A16,16,0,1,1,84,96,16,16,0,0,1,68,80Z"></path></svg>
+
+                      <span className="other-login-name">LinkedIn</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className='col-lg-5 col-md-6 col-sm-12 login-right-col'>
+                <div className='login-right-wrap'>
+                  <div className='text-end imgBx'>
+                    <img src={process.env.PUBLIC_URL + 'assets/images/login-right.webp'} alt="login" />
+                  </div>
+                  <div className='textBx'>
+                    "Before Growthh, my to-do lists were scattered all around! Now, everything is in order and in one place."
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </ >
+
+  )
+}
+
+export default Login

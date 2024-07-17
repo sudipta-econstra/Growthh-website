@@ -1,0 +1,380 @@
+.user-account-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+p {
+  color: #00212f;
+}
+
+.user-footer {
+  background-color: #fff;
+  border-top: 1px solid #dee2e6;
+  color: #869099;
+  padding: 1rem;
+}
+
+.user-footer .footer-cont-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-account-header-wrap .user-account-header-cont {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.user-account-header-wrap .user-account-header-cont .gth-btn-primary {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: auto;
+}
+
+.user-account-content-wrapper {
+  padding-bottom: 0px;
+}
+
+.user-account-content-wrapper .user-account-tab {
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .user-account-content-wrapper .user-account-tab {
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+  .user-account-content-wrapper .user-account-tab ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.user-account-content-wrapper .user-account-tab li .nav-link {
+  white-space: nowrap;
+}
+
+.user-account-content-wrapper .current-plan-card {
+  background: linear-gradient(45deg, #e0f3ff 0%, #fff 100%);
+  position: relative;
+}
+
+.user-account-content-wrapper .current-plan-card .current-plan-card-wrap .badge {
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.user-account-content-wrapper .current-plan-card .current-plan-card-wrap .current-plan-name {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.user-account-content-wrapper .current-plan-card .current-plan-card-wrap .expire-text {
+  font-size: 13px;
+  margin-bottom: 0px;
+}
+
+.user-account-content-wrapper .current-plan-card .current-plan-card-wrap .expire-text span {
+  display: block;
+  font-size: 24px;
+  font-weight: 800;
+  color: #ce385e;
+}
+
+.user-account-content-wrapper .current-plan-card .current-plan-card-wrap .reneu-btn {
+  background-color: #1f2b3a;
+  color: #ffffff;
+  border: 0;
+}
+
+.user-account-content-wrapper .user-card {
+  background: linear-gradient(45deg, #f0fbb9 0%, #fff 100%);
+  position: relative;
+}
+
+.user-account-content-wrapper .user-card .user-card-wrap .users-icon {
+  width: 54px;
+  height: 54px;
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  line-height: 1;
+  background-color: #fd9722;
+  border-radius: 50%;
+  color: #ffffff;
+}
+
+.user-account-content-wrapper .user-card .user-card-wrap .user-number {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.user-account-content-wrapper .user-card .user-card-wrap .left-number {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.user-account-content-wrapper .payment-history {
+  background: linear-gradient(170deg, #68dee2 0%, #62fcc0 100%);
+}
+
+.user-account-content-wrapper .payment-history .payment-card-wrap .amount {
+  font-size: 30px;
+  color: #1f2b3a;
+  line-height: 1;
+}
+
+.user-account-content-wrapper .payment-history .payment-card-wrap .amount .amount-number {
+  font-size: 40px;
+  font-weight: 600;
+  color: #1f2b3a;
+  line-height: 1;
+  margin-top: -5px;
+}
+
+@media (max-width: 767px) {
+  .user-account-content-wrapper .payment-history .payment-card-wrap .amount .amount-number {
+    font-size: 30px;
+  }
+}
+
+.user-account-content-wrapper .storage-card {
+  background: linear-gradient(170deg, #eed4ff 0%, #ffc0e0 100%);
+}
+
+.storage-plan-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.storage-plan-wrap .storage-plan-item {
+  max-width: 250px;
+  padding: 15px;
+  border: 1px solid #5034ff;
+  border-radius: 15px;
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.storage-plan-wrap .storage-plan-item:hover {
+  background-color: #e4f3ff;
+}
+
+.storage-plan-wrap .storage-plan-item .custom-radio {
+  margin-bottom: 0;
+}
+
+.storage-plan-wrap .storage-plan-item .storage-heading h6 {
+  font-size: 16px;
+  color: #494949;
+}
+
+.storage-plan-wrap .storage-plan-item .storage-heading .storage-price {
+  font-size: 24px;
+  color: #00212f;
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+}
+
+.storage-plan-wrap .storage-plan-item .storage-heading .storage-unit {
+  font-size: 26px;
+  color: #0479d6;
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.user-profile-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 575px) {
+  .user-profile-wrap {
+    display: block;
+  }
+}
+
+.user-profile-wrap .profile-image-outer {
+  width: 160px;
+  height: 160px;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.user-profile-wrap .profile-image-outer:hover .profile-image-overlay {
+  opacity: 1;
+}
+
+.user-profile-wrap .profile-image-outer .profile-image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.721);
+  color: #fff;
+  padding: 20px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  flex-direction: column;
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+
+.user-profile-wrap .profile-image-outer .profile-image-overlay i {
+  width: 100%;
+  flex: 0 0 auto;
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+}
+
+.user-profile-wrap .profile-image-outer .profile-image-overlay p {
+  width: 100%;
+  flex: 0 0 auto;
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.user-profile-wrap .profile-image-outer .profile-image {
+  width: 100%;
+  height: 100%;
+}
+
+.user-profile-wrap .profile-desc {
+  flex: 1;
+  padding-left: 15px;
+}
+
+@media (max-width: 575px) {
+  .user-profile-wrap .profile-desc {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+
+.avtar-editor-wrap {
+  margin: 0 auto;
+  display: block;
+}
+
+.editable-field .editable-area {
+  padding-right: 30px;
+  width: 100%;
+}
+
+.editable-field .editable-area:hover .profile-edit-btn {
+  opacity: 0.7;
+}
+
+.editable-field .editable-area .input-field {
+  max-width: 100%;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-size: 16px;
+  position: relative;
+  z-index: 2;
+  background-color: transparent;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.editable-field .editable-area .profile-edit-btn {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  background-color: transparent;
+  border: 0;
+  padding: 5px;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  z-index: 1;
+}
+
+.module-list-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.module-list-wrap .module-checkbox-list-item {
+  margin-bottom: 0;
+  width: 110px;
+  height: 110px;
+  padding: 5px 5px 5px 5px;
+  border: 1px solid #5034ff;
+  border-radius: 10px;
+  display: block;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  z-index: 2;
+}
+
+.module-list-wrap .module-checkbox-list-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.module-list-wrap .module-checkbox-list-item .module-icon {
+  display: block;
+  text-align: center;
+  font-size: 26px;
+  line-height: 1;
+  margin-bottom: 8px;
+  margin-top: 14px;
+  background: linear-gradient(10deg, #733aea 0%, #6161ff 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.module-list-wrap .module-checkbox-list-item .module-name {
+  display: block;
+  text-align: center;
+  font-size: 13px;
+  color: #2b2b2b;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.module-list-wrap .module-checkbox-list-item input:checked ~ .checkmark::before {
+  opacity: 1;
+}
+
+.module-list-wrap .module-checkbox-list-item input:checked ~ .checkmark {
+  background-color: #00b386;
+}

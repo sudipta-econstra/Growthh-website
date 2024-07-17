@@ -1,0 +1,163 @@
+.ln-cart-sec {
+  padding-top: 120px;
+  padding-bottom: 70px;
+}
+
+.ln-cart-sec .selected-plan {
+  padding: 20px;
+  background-color: #f9f6ff;
+  border: 1px solid #6231c7;
+  border-radius: 15px;
+}
+
+.ln-cart-sec .selected-plan .select-plan-header {
+  border-bottom: 1px solid #6231c7;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.ln-cart-sec .selected-plan .select-plan-header .plan-name {
+  color: #6231c7;
+  font-size: 20px;
+}
+
+.ln-cart-sec .selected-plan .select-plan-header .select-plan-price {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0e1133;
+}
+
+.ln-cart-sec .selected-plan .select-plan-details-wrap ul {
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+.ln-cart-sec .selected-plan .select-plan-details-wrap ul li {
+  font-size: 13px;
+  font-weight: 500;
+  color: #0e1133;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.ln-cart-sec .selected-plan .select-plan-details-wrap ul li i {
+  height: 20px;
+  width: 20px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 50%;
+  color: #fff;
+  margin-right: 8px;
+  margin-top: -1px;
+  background: linear-gradient(180deg, #5c43d7 0%, #9b8ce8 100%);
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.ln-cart-sec .selected-plan .select-plan-details-wrap .notes {
+  color: #0e1133;
+  font-size: 13px;
+}
+
+.ln-cart-sec .plan-details-wrap {
+  position: sticky;
+  top: 120px;
+}
+
+@media (max-width: 767px) {
+  .ln-cart-sec .plan-details-wrap {
+    position: static;
+    top: 0;
+    margin-top: 30px;
+  }
+}
+
+.ln-cart-sec .plan-details-card {
+  border-radius: 15px;
+}
+
+.ln-cart-sec .plan-details-card .custom-table {
+  width: 100%;
+}
+
+.ln-cart-sec .plan-details-card .custom-table tr + tr {
+  border-top: 1px solid #dee2e6;
+}
+
+.ln-cart-sec .plan-details-card .custom-table tr th {
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #0e1133;
+}
+
+.ln-cart-sec .plan-details-card .custom-table tr th span {
+  font-size: 16px;
+}
+
+.ln-cart-sec .plan-details-card .custom-table tr th .total {
+  font-size: 18px;
+}
+
+.ln-cart-sec .plan-details-card .custom-table tr th:last-child {
+  width: 120px;
+  text-align: right;
+}
+
+.ln-cart-sec .plan-details-card .custom-table tr.tbl-foot th {
+  background-color: #e5eff7;
+}
+
+.ln-cart-sec .addon-module-wrapper {
+  border: 1px solid #007bff;
+  border-radius: 15px;
+  background-color: #f1f8ff;
+}
+
+.ln-cart-sec .addon-module-wrapper .addon-module-item {
+  display: flex;
+  align-items: center;
+  padding: 15px 45px 15px 20px;
+  position: relative;
+}
+
+.ln-cart-sec .addon-module-wrapper .addon-module-item + .addon-module-item {
+  border-top: 1px solid #007bff;
+}
+
+.ln-cart-sec .addon-module-wrapper .addon-module-item .module-icon {
+  font-size: 40px;
+  line-height: 1;
+  background: linear-gradient(10deg, #733aea 0%, #6161ff 100%);
+  background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ln-cart-sec .addon-module-wrapper .addon-module-item .module-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.ln-cart-sec .addon-module-wrapper .addon-module-item .cart-short-desc {
+  font-size: 14px;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.ln-cart-sec .addon-module-wrapper .addon-module-item .module-selected {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+  outline: none;
+  font-size: 16px;
+  color: #ff3d1d;
+}
