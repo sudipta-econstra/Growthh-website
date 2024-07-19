@@ -29,6 +29,7 @@ import AdminPlan from '../pages/admin/AdminPlan';
 import AdminModule from '../pages/admin/AdminModule';
 import AdminCompany from '../pages/admin/AdminCompany';
 import AdminReport from '../pages/admin/AdminReport';
+import Page404 from '../pages/PageNotFound/Page404';
 
 
 
@@ -142,6 +143,10 @@ const router = createBrowserRouter(
         {
             path: '/contact-us',
             element: <LandingContactUsIndex />
+        },
+        {
+            path: '/404',
+            element: <Page404 />
         },
         {
             element: <ProtectedRoute />,
