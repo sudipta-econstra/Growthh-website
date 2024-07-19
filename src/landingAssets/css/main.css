@@ -20,7 +20,9 @@ body {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-
+a:hover {
+  text-decoration: none;
+}
 img {
   max-width: 100%;
 }
