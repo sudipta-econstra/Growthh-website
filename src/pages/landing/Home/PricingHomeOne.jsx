@@ -42,11 +42,12 @@ function PricingHomeOne({ className, modalShow }) {
                                     <div className="col-lg-3 col-md-6">
                                         <div className="pricing-one__single">
                                             <div className="pricig-heading">
-                                                <h6>Free Trial</h6>
+                                                <h6>Business Starter</h6>
                                                 <div className="price-range">
-                                                    <sup></sup> <span>FREE</span>                                                    
+                                                    <sup>&#8377;</sup> <span>1,999</span>
+                                                    <p>/month <mark className='bg-transparent text-danger'>**</mark></p>
                                                 </div>
-                                                <p>Get your 14 day free trial</p>
+                                                <p>( Charged every 30 days )</p>
                                             </div>
                                             <div className="pricig-body">
                                                 <ul>
@@ -63,7 +64,7 @@ function PricingHomeOne({ className, modalShow }) {
                                                         <i className="fal fa-check" /> Bottleneck Management
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> Workflows (FMS) <br/>(Free upto 5 FMS)
+                                                        <i className="fal fa-check" /> Workflows (FMS) <br />(Free upto 3 FMS)
                                                     </li>
                                                     <li>
                                                         <i className="fal fa-check" /> Admin & Doer Dashboard
@@ -89,15 +90,18 @@ function PricingHomeOne({ className, modalShow }) {
                                                     <li>
                                                         <i className="fal fa-check" /> Automated Reminder
                                                     </li>
-                                                    <li>
+                                                    {/* <li>
                                                         <i className="fal fa-check" /> Whatsapp Reminder (API#)
-                                                    </li>
+                                                    </li> */}
                                                     <li>
                                                         <i className="fal fa-check" /> 3 Users
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> Storage Space <br/>(Upto 50 MB)*
+                                                        <i className="fal fa-check" /> Storage Space <br />(Upto 50 MB)*
                                                     </li>
+                                                    <li></li>
+                                                    <li></li>
+                                                    <li></li>
                                                 </ul>
                                                 <div className="pricing-btn mt-35">
                                                     <a className="main-btn" href='javascript:void(0);' onClick={modalShow}>
@@ -115,7 +119,7 @@ function PricingHomeOne({ className, modalShow }) {
                                             <div className="pricig-heading business-growth">
                                                 <h6>Business Growth</h6>
                                                 <div className="price-range">
-                                                    <sup>&#8377;</sup> <span>1,999</span>
+                                                    <sup>&#8377;</sup> <span>5,999</span>
                                                     <p>/month <mark className='bg-transparent text-danger'>**</mark></p>
                                                 </div>
                                                 <p>( Charged every 30 days )</p>
@@ -138,7 +142,7 @@ function PricingHomeOne({ className, modalShow }) {
                                                         <i className="fal fa-check" /> Bottleneck Management
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> Workflows (FMS) <br/>(Upto 3 FMS)
+                                                        <i className="fal fa-check" /> Workflows (FMS) <br />(Upto 10 FMS)
                                                     </li>
                                                     <li>
                                                         <i className="fal fa-check" /> Admin & Doer Dashboard
@@ -164,19 +168,22 @@ function PricingHomeOne({ className, modalShow }) {
                                                     <li>
                                                         <i className="fal fa-check" /> Automated Reminder
                                                     </li>
-                                                    <li>
+                                                    {/* <li>
                                                         <i className="fal fa-check" /> Whatsapp Reminder (API#)
-                                                    </li>
+                                                    </li> */}
                                                     <li>
                                                         <i className="fal fa-check" /> 10 Users
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> Storage Space <br/>(Upto 2 GB)*
+                                                        <i className="fal fa-check" /> Storage Space <br />(Upto 2 GB)*
                                                     </li>
+                                                    <li></li>
+                                                    <li></li>
+                                                    <li></li>
                                                 </ul>
                                                 <div className="pricing-btn mt-35">
                                                     <a className="main-btn orange-btn" href='javascript:void(0);' onClick={modalShow}>
-                                                        Buy Now!
+                                                        Sign Up!
                                                     </a>
                                                     {/* <a className="main-btn orange-btn" href="/modules">
                                                         Buy Now!
@@ -190,7 +197,7 @@ function PricingHomeOne({ className, modalShow }) {
                                             <div className="pricig-heading express">
                                                 <h6>Business Express</h6>
                                                 <div className="price-range">
-                                                    <sup>&#8377;</sup> <span>4,999</span>
+                                                    <sup>&#8377;</sup> <span>14,999</span>
                                                     <p>/month <mark className='bg-transparent text-danger'>**</mark></p>
                                                 </div>
                                                 <p>( Charged every 30 days )</p>
@@ -210,7 +217,7 @@ function PricingHomeOne({ className, modalShow }) {
                                                         <i className="fal fa-check" /> Bottleneck Management
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> Workflows (FMS) <br/>(Upto 5 FMS)
+                                                        <i className="fal fa-check" /> Workflows (FMS) <br />(Upto 20 FMS)
                                                     </li>
                                                     <li>
                                                         <i className="fal fa-check" /> Admin & Doer Dashboard
@@ -240,21 +247,21 @@ function PricingHomeOne({ className, modalShow }) {
                                                         <i className="fal fa-check" /> Whatsapp Reminder (API#)
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> 30 Users
+                                                        <i className="fal fa-check" /> 20 Users
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> Storage Space <br/>(Upto 5 GB)*
+                                                        <i className="fal fa-check" /> Storage Space <br />(Upto 5 GB)*
                                                     </li>
                                                 </ul>
                                                 <div className="pricing-btn mt-35">
                                                     <a className="main-btn" href='javascript:void(0);' onClick={modalShow}>
-                                                        Buy Now!
+                                                        Sign Up!
                                                     </a>
                                                     {/* <a className="main-btn" href="/modules">
                                                         Buy Now!
                                                     </a> */}
                                                 </div>
-                                            </div>                                            
+                                            </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-3 col-md-6">
@@ -281,7 +288,7 @@ function PricingHomeOne({ className, modalShow }) {
                                                         <i className="fal fa-check" /> Bottleneck Management
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> Workflows (FMS) <br/>(As per requirement)
+                                                        <i className="fal fa-check" /> Workflows (FMS) <br />(As per requirement)
                                                     </li>
                                                     <li>
                                                         <i className="fal fa-check" /> Admin & Doer Dashboard
@@ -314,7 +321,7 @@ function PricingHomeOne({ className, modalShow }) {
                                                         <i className="fal fa-check" /> Users (As per requirement)*
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> Storage Space <br/>(As per requirement)*
+                                                        <i className="fal fa-check" /> Storage Space <br />(As per requirement)*
                                                     </li>
                                                 </ul>
                                                 <div className="pricing-btn mt-35">
@@ -325,7 +332,7 @@ function PricingHomeOne({ className, modalShow }) {
                                                         Enquire Now!
                                                     </a> */}
                                                 </div>
-                                            </div>                                            
+                                            </div>
                                         </div>
                                     </div>
                                     <div className="col-12">
@@ -333,7 +340,7 @@ function PricingHomeOne({ className, modalShow }) {
                                             Safe & Secure Data Encryption for Advanced Security. All transmissions to and from Growthh.in, including sign-on, are encrypted at 256-bit and sent through TLS 1.2, adhering to the FIPS 140-2 certification standard.
                                         </p>
                                         <p className='mb-2'>
-                                            <mark className='bg-transparent text-danger'>**</mark> GST charges are included.
+                                            <mark className='bg-transparent text-danger'>**</mark> GST charges are excluded.
                                         </p>
                                         <p className='mb-2'>
                                             <mark className='bg-transparent text-danger'>#</mark>Whatsapp API cost charge not included.
@@ -352,7 +359,7 @@ function PricingHomeOne({ className, modalShow }) {
                                             <div className="pricig-heading">
                                                 <h6>Free Trial</h6>
                                                 <div className="price-range">
-                                                    <sup></sup> <span>FREE</span>                                                    
+                                                    <sup></sup> <span>FREE</span>
                                                 </div>
                                                 <p>Get your 14 day free trial</p>
                                             </div>
@@ -371,7 +378,7 @@ function PricingHomeOne({ className, modalShow }) {
                                                         <i className="fal fa-check" /> Bottleneck Management
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> Workflows (FMS) <br/>(Free upto 1 FMS)
+                                                        <i className="fal fa-check" /> Workflows (FMS) <br />(Free upto 1 FMS)
                                                     </li>
                                                     <li>
                                                         <i className="fal fa-check" /> Admin & Doer Dashboard
@@ -401,7 +408,7 @@ function PricingHomeOne({ className, modalShow }) {
                                                         <i className="fal fa-check" /> Whatsapp Reminder (API#)
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> Storage Space <br/>(Upto 50 MB)*
+                                                        <i className="fal fa-check" /> Storage Space <br />(Upto 50 MB)*
                                                     </li>
                                                 </ul>
                                                 <div className="pricing-btn mt-35">
@@ -440,7 +447,7 @@ function PricingHomeOne({ className, modalShow }) {
                                                         <i className="fal fa-check" /> Bottleneck Management
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> Workflows (FMS) <br/>(Free upto 5 FMS)
+                                                        <i className="fal fa-check" /> Workflows (FMS) <br />(Free upto 5 FMS)
                                                     </li>
                                                     <li>
                                                         <i className="fal fa-check" /> Admin & Doer Dashboard
@@ -470,12 +477,12 @@ function PricingHomeOne({ className, modalShow }) {
                                                         <i className="fal fa-check" /> Whatsapp Reminder (API#)
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> Storage Space <br/>(Upto 5 GB)*
+                                                        <i className="fal fa-check" /> Storage Space <br />(Upto 5 GB)*
                                                     </li>
                                                 </ul>
                                                 <div className="pricing-btn mt-35">
                                                     <a className="main-btn orange-btn" href="javascript:void(0);" onClick={modalShow}>
-                                                        Buy Now!
+                                                        Sign Up!
                                                     </a>
                                                 </div>
                                             </div>
@@ -506,7 +513,7 @@ function PricingHomeOne({ className, modalShow }) {
                                                         <i className="fal fa-check" /> Bottleneck Management
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> Workflows (FMS) <br/>(Free upto 10 FMS)
+                                                        <i className="fal fa-check" /> Workflows (FMS) <br />(Free upto 10 FMS)
                                                     </li>
                                                     <li>
                                                         <i className="fal fa-check" /> Admin & Doer Dashboard
@@ -536,15 +543,15 @@ function PricingHomeOne({ className, modalShow }) {
                                                         <i className="fal fa-check" /> Whatsapp Reminder (API#)
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> Storage Space <br/>(Upto 10 GB)*
+                                                        <i className="fal fa-check" /> Storage Space <br />(Upto 10 GB)*
                                                     </li>
                                                 </ul>
                                                 <div className="pricing-btn mt-35">
                                                     <a className="main-btn" href="javascript:void(0);" onClick={modalShow}>
-                                                        Buy Now!
+                                                        Sign Up!
                                                     </a>
                                                 </div>
-                                            </div>                                            
+                                            </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-3 col-md-6">
@@ -571,7 +578,7 @@ function PricingHomeOne({ className, modalShow }) {
                                                         <i className="fal fa-check" /> Bottleneck Management
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> Workflows (FMS) <br/>(As per requirement)
+                                                        <i className="fal fa-check" /> Workflows (FMS) <br />(As per requirement)
                                                     </li>
                                                     <li>
                                                         <i className="fal fa-check" /> Admin & Doer Dashboard
@@ -601,7 +608,7 @@ function PricingHomeOne({ className, modalShow }) {
                                                         <i className="fal fa-check" /> Whatsapp Reminder (API#)
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> Storage Space <br/>(As per requirement)*
+                                                        <i className="fal fa-check" /> Storage Space <br />(As per requirement)*
                                                     </li>
                                                 </ul>
                                                 <div className="pricing-btn mt-35">
@@ -609,7 +616,7 @@ function PricingHomeOne({ className, modalShow }) {
                                                         Enquire Now!
                                                     </a>
                                                 </div>
-                                            </div>                                            
+                                            </div>
                                         </div>
                                     </div>
                                     <div className="col-12">
