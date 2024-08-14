@@ -4049,7 +4049,7 @@ p {
   list-style-type: none;
 }
 .pricing-one__single .pricig-body ul li {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   color: #0e1133;
   margin-bottom: 8px;
@@ -4065,14 +4065,14 @@ p {
 .pricing-one__single .pricig-body ul li i {
   height: 20px;
   width: 20px;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
   line-height: 20px;
   border-radius: 50%;
   background: #effaf3;
   color: #31c369;
   margin-right: 8px;
-  margin-top: -1px;
+  margin-top: 2px;
 }
 .pricing-one__single .pricig-body .pricing-btn a {
   background: transparent;
