@@ -126,7 +126,7 @@ function FeaturesHomeOne({ className, modalShow }) {
                                         >
                                             <span>Task Manager</span>
                                             <h3 className="title">
-                                                Plan, Delegate and Complete Tasks
+                                                Growthh helps you Plan, Delegate and Complete Tasks
                                             </h3>
                                             <p>
                                                 Get tasks done efficiently – stay organized and on top of everything.

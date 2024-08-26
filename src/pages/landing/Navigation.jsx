@@ -20,11 +20,24 @@ function Navigation({ lang = false, modalShow }) {
                         Home
                     </a>
                 </li>
-                {location.pathname=="/"?
+                {/* {location.pathname=="/"?
                     <li>
                         <a href="/#features" onClick={() => scrollToSection('features')}>Features</a>
                     </li>:""
-                }
+                } */}
+                <li>
+                        <a href="/">
+                            Features
+                        </a>
+                        <ul className="sub-menu">
+                            <li>
+                                <a href="/task-management-software">Task Management Software</a>
+                            </li>
+                            <li>
+                                <a href="/business-management-software">Business Management Software</a>
+                            </li>
+                        </ul>
+                    </li>
                 <li>
                     <a href='https://growthh.in/blog/'>Blog</a>
                 </li>

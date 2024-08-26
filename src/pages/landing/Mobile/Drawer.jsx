@@ -54,12 +54,36 @@ function Drawer({ drawer, action, lang, modalShow }) {
                                             <a href="/">Home</a>
 
                                         </li>
-                                        {location.pathname == "/" ?
+                                        {/* {location.pathname == "/" ?
                                             <li className="menu-item-has-children active"
                                             >
                                                 <a href="/#features" onClick={() => scrollToSection('features')}>Features</a>
                                             </li> : ""
-                                        }
+                                        } */}
+                                        <li
+                                            onClick={(e) => handler(e, 'news')}
+                                            id="news"
+                                            className="menu-item-has-children active"
+                                        >
+                                            <span className="menu-expand">
+                                                <i className="fa fa-angle-down"></i>
+                                            </span>
+                                            <a href="#">Features</a>
+                                            <ul
+                                                className="sub-menu"
+                                                style={{
+                                                    height:
+                                                        item === 'news' ? itemSize : '0px',
+                                                }}
+                                            >
+                                                <li>
+                                                <a href="/task-management-software">Task Management Software</a>
+                                                </li>
+                                                <li>
+                                                <a href="/business-management-software">Business Management Software</a>
+                                                </li>
+                                            </ul>
+                                        </li>
                                         <li className="menu-item-has-children active">
                                             <a href='https://growthh.in/blog/'>Blog</a>
                                         </li>

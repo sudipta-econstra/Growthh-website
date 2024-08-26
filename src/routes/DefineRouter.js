@@ -33,7 +33,8 @@ import Page404 from '../pages/PageNotFound/Page404';
 
 
 
-
+const LandingBusinessManagementSoftware = React.lazy(() => import('../pages/BusinessManagementSoftware/LandingBusinessManagementSoftware'));
+const LandingAutomateBusinessTasks = React.lazy(() => import('../pages/AutomateBusinessTasks/LandingAutomateBusinessTasks'));
 const LandingContactUsIndex = React.lazy(() => import('../pages/ContactUs/LandingContactUsIndex'));
 const LandingRefundPolicyIndex = React.lazy(() => import('../pages/RefundPolicy/LandingRefundPolicyIndex'));
 const LandingCancellationPolicyIndex = React.lazy(() => import('../pages/CancellationPolicy/LandingCancellationPolicyIndex'));
@@ -147,6 +148,14 @@ const router = createBrowserRouter(
         {
             path: '/404',
             element: <Page404 />
+        },
+        {
+            path: '/task-management-software',
+            element: <LandingAutomateBusinessTasks />
+        },
+        {
+            path: '/business-management-software',
+            element: <LandingBusinessManagementSoftware />
         },
         {
             element: <ProtectedRoute />,

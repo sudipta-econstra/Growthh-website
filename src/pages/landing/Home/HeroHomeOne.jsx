@@ -20,10 +20,10 @@ function HeroHomeOne({ className, modalShow }) {
                             <div className="appie-hero-content">
                                 <span>Choose the Best</span>
                                 <h1 className="appie-title">
-                                    Business Management System in India
+                                    Growthh, Business Management System in India
                                 </h1>
                                 <p>
-                                    Our Business Automation System is designed to streamline your operations, increase productivity, and drive growth.
+                                    Growthh Business Automation System is designed to streamline your operations, increase productivity, and drive growth.
                                 </p>
                                 <ul>
                                     <li>
@@ -32,7 +32,7 @@ function HeroHomeOne({ className, modalShow }) {
                                         </a>
                                     </li>
                                     <li>
-                                        <a className="item-2"  href='javascript:void(0);' onClick={modalShow}>
+                                        <a className="item-2" href='javascript:void(0);' onClick={modalShow}>
                                             Get Free Trial
                                         </a>
                                         {/* <a className="item-2" href="/register">
@@ -66,7 +66,7 @@ function HeroHomeOne({ className, modalShow }) {
                                     </div> */}
 
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>

@@ -11,7 +11,7 @@ function PricingHomeOne({ className, modalShow }) {
                         <div className="col-lg-12">
                             <div className="appie-features-content text-center">
                                 <span>Pricing</span>
-                                <h2 className="appie-title">Automate Your Entire Business at Rs.66/Day</h2>
+                                <h2 className="appie-title">Automate Business Process On The Go</h2>
                             </div>
                             {/* <ul
                                 className="list-inline text-center switch-toggler-list"
