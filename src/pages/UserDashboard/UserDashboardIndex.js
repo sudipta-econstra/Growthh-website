@@ -1654,7 +1654,7 @@ function UserDashboardIndex() {
                         <i class="fi fi-rr-cloud-back-up me-2"></i><span>20 GB</span>
                       </div>
                       <div className="storage-price">
-                        <>&#8377;</> <span>5,999</span>
+                        <>&#8377;</> <span>7,999</span>
                         <p>/month</p>
                       </div>
                     </div>

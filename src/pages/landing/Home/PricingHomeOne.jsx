@@ -116,7 +116,7 @@ function PricingHomeOne({ className, modalShow }) {
                                             <div className="pricig-heading business-growth">
                                                 <h6>Business Growth</h6>
                                                 <div className="price-range">
-                                                    <sup>&#8377;</sup> <span>5,999</span>
+                                                    <sup>&#8377;</sup> <span>7,999</span>
                                                     <p>/month <mark className='bg-transparent text-danger'>**</mark></p>
                                                 </div>
                                                 <p>( Charged every 30 days )</p>
@@ -189,7 +189,7 @@ function PricingHomeOne({ className, modalShow }) {
                                             <div className="pricig-heading express">
                                                 <h6>Business Express</h6>
                                                 <div className="price-range">
-                                                    <sup>&#8377;</sup> <span>14,999</span>
+                                                    <sup>&#8377;</sup> <span>17,999</span>
                                                     <p>/month <mark className='bg-transparent text-danger'>**</mark></p>
                                                 </div>
                                                 <p>( Charged every 30 days )</p>
