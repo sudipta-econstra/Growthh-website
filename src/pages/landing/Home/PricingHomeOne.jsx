@@ -163,9 +163,9 @@ function PricingHomeOne({ className, modalShow }) {
                                                     <li>
                                                         <i className="fal fa-check" /> Automated Reminder
                                                     </li>
-                                                    <li>
+                                                    {/* <li>
                                                         <i className="fal fa-check" /> Whatsapp Reminder (API#)
-                                                    </li>
+                                                    </li> */}
                                                     <li>
                                                         <i className="fal fa-check" /> Upto 50 Users
                                                     </li>
@@ -238,9 +238,9 @@ function PricingHomeOne({ className, modalShow }) {
                                                     <li>
                                                         <i className="fal fa-check" /> Automated Reminder
                                                     </li>
-                                                    <li>
+                                                    {/* <li>
                                                         <i className="fal fa-check" /> Whatsapp Reminder (API#)
-                                                    </li>
+                                                    </li> */}
                                                     <li>
                                                         <i className="fal fa-check" /> Upto 50 Users
                                                     </li>
@@ -310,9 +310,9 @@ function PricingHomeOne({ className, modalShow }) {
                                                     <li>
                                                         <i className="fal fa-check" /> Automated Reminder
                                                     </li>
-                                                    <li>
+                                                    {/* <li>
                                                         <i className="fal fa-check" /> Whatsapp Reminder (API#)
-                                                    </li>
+                                                    </li> */}
                                                     <li>
                                                         <i className="fal fa-check" /> Users (As per requirement)*
                                                     </li>
@@ -338,9 +338,9 @@ function PricingHomeOne({ className, modalShow }) {
                                         <p className='mb-2'>
                                             <mark className='bg-transparent text-danger'>**</mark> GST charges are excluded.
                                         </p>
-                                        <p className='mb-2'>
+                                        {/* <p className='mb-2'>
                                             <mark className='bg-transparent text-danger'>#</mark>Whatsapp API cost charge not included.
-                                        </p>
+                                        </p> */}
                                         <p>
                                             <mark className='bg-transparent text-dark'>*</mark> Storage is limited with plans. For additional storage contact support at <a href="tel:9831093864">98310-93864</a>
                                         </p>
@@ -400,9 +400,9 @@ function PricingHomeOne({ className, modalShow }) {
                                                     <li>
                                                         <i className="fal fa-check" /> Automated Reminder
                                                     </li>
-                                                    <li>
+                                                    {/* <li>
                                                         <i className="fal fa-check" /> Whatsapp Reminder (API#)
-                                                    </li>
+                                                    </li> */}
                                                     <li>
                                                         <i className="fal fa-check" /> Storage Space <br />(Upto 50 MB)*
                                                     </li>
@@ -469,9 +469,9 @@ function PricingHomeOne({ className, modalShow }) {
                                                     <li>
                                                         <i className="fal fa-check" /> Automated Reminder
                                                     </li>
-                                                    <li>
+                                                    {/* <li>
                                                         <i className="fal fa-check" /> Whatsapp Reminder (API#)
-                                                    </li>
+                                                    </li> */}
                                                     <li>
                                                         <i className="fal fa-check" /> Storage Space <br />(Upto 5 GB)*
                                                     </li>
@@ -535,9 +535,9 @@ function PricingHomeOne({ className, modalShow }) {
                                                     <li>
                                                         <i className="fal fa-check" /> Automated Reminder
                                                     </li>
-                                                    <li>
+                                                    {/* <li>
                                                         <i className="fal fa-check" /> Whatsapp Reminder (API#)
-                                                    </li>
+                                                    </li> */}
                                                     <li>
                                                         <i className="fal fa-check" /> Storage Space <br />(Upto 10 GB)*
                                                     </li>
@@ -600,9 +600,9 @@ function PricingHomeOne({ className, modalShow }) {
                                                     <li>
                                                         <i className="fal fa-check" /> Automated Reminder
                                                     </li>
-                                                    <li>
+                                                    {/* <li>
                                                         <i className="fal fa-check" /> Whatsapp Reminder (API#)
-                                                    </li>
+                                                    </li> */}
                                                     <li>
                                                         <i className="fal fa-check" /> Storage Space <br />(As per requirement)*
                                                     </li>
@@ -620,7 +620,7 @@ function PricingHomeOne({ className, modalShow }) {
                                             Safe & Secure Data Encryption for Advanced Security. All transmissions to and from Growthh.in, including sign-on, are encrypted at 256-bit and sent through TLS 1.2, adhering to the FIPS 140-2 certification standard.
                                         </p>
                                         <p className='mb-2'>
-                                            <mark className='bg-transparent text-danger'>**</mark> GST charges are included. #Whatsapp API cost charge not included.
+                                            <mark className='bg-transparent text-danger'>**</mark> GST charges are included.
                                         </p>
                                         <p>
                                             <mark className='bg-transparent text-dark'>*</mark> Storage is limited with plans. For additional storage contact support at <a href="tel:9831093864">98310-93864</a>
