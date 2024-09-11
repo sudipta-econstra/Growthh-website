@@ -137,7 +137,7 @@ function PricingHomeOne({ className, modalShow }) {
                                                         <i className="fal fa-check" /> Bottleneck Management
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> Workflows (FMS) <br />(Upto 10 FMS)
+                                                        <i className="fal fa-check" /> Workflows (FMS) <br />(Upto 5 FMS)
                                                     </li>
                                                     <li>
                                                         <i className="fal fa-check" /> Admin & Doer Dashboard
@@ -148,12 +148,12 @@ function PricingHomeOne({ className, modalShow }) {
                                                     <li>
                                                         <i className="fal fa-check" /> Doer Performance Report
                                                     </li>
-                                                    <li>
+                                                    {/* <li>
                                                         <i className="fal fa-check" /> Organisation Privilege's
                                                     </li>
                                                     <li>
                                                         <i className="fal fa-check" /> Auto Productivity Score
-                                                    </li>
+                                                    </li> */}
                                                     <li>
                                                         <i className="fal fa-check" /> Auto Notification Feature
                                                     </li>
@@ -167,7 +167,7 @@ function PricingHomeOne({ className, modalShow }) {
                                                         <i className="fal fa-check" /> Whatsapp Reminder (API#)
                                                     </li> */}
                                                     <li>
-                                                        <i className="fal fa-check" /> Upto 50 Users
+                                                        <i className="fal fa-check" /> Upto 20 Users
                                                     </li>
                                                     <li>
                                                         <i className="fal fa-check" /> Storage Space <br />(Upto 5 GB)*
@@ -212,7 +212,7 @@ function PricingHomeOne({ className, modalShow }) {
                                                         <i className="fal fa-check" /> Bottleneck Management
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> Workflows (FMS) <br />(Upto 10 FMS)
+                                                        <i className="fal fa-check" /> Workflows (FMS) <br />(Upto 5 FMS)
                                                     </li>
                                                     <li>
                                                         <i className="fal fa-check" /> Admin & Doer Dashboard
@@ -223,12 +223,12 @@ function PricingHomeOne({ className, modalShow }) {
                                                     <li>
                                                         <i className="fal fa-check" /> Doer Performance Report
                                                     </li>
-                                                    <li>
+                                                    {/* <li>
                                                         <i className="fal fa-check" /> Organisation Privilege's
                                                     </li>
                                                     <li>
                                                         <i className="fal fa-check" /> Auto Productivity Score
-                                                    </li>
+                                                    </li> */}
                                                     <li>
                                                         <i className="fal fa-check" /> Auto Notification Feature
                                                     </li>
@@ -242,7 +242,7 @@ function PricingHomeOne({ className, modalShow }) {
                                                         <i className="fal fa-check" /> Whatsapp Reminder (API#)
                                                     </li> */}
                                                     <li>
-                                                        <i className="fal fa-check" /> Upto 50 Users
+                                                        <i className="fal fa-check" /> Upto 20 Users
                                                     </li>
                                                     <li>
                                                         <i className="fal fa-check" /> Storage Space <br />(Upto 10 GB)*
@@ -295,21 +295,21 @@ function PricingHomeOne({ className, modalShow }) {
                                                     <li>
                                                         <i className="fal fa-check" /> Doer Performance Report
                                                     </li>
-                                                    <li>
+                                                    {/* <li>
                                                         <i className="fal fa-check" /> Organisation Privilege's
                                                     </li>
                                                     <li>
                                                         <i className="fal fa-check" /> Auto Productivity Score
-                                                    </li>
+                                                    </li> */}
                                                     <li>
                                                         <i className="fal fa-check" /> Auto Notification Feature
                                                     </li>
                                                     <li>
                                                         <i className="fal fa-check" /> Employee Comparision Score
                                                     </li>
-                                                    <li>
+                                                    {/* <li>
                                                         <i className="fal fa-check" /> Automated Reminder
-                                                    </li>
+                                                    </li> */}
                                                     {/* <li>
                                                         <i className="fal fa-check" /> Whatsapp Reminder (API#)
                                                     </li> */}
