@@ -160,17 +160,17 @@ function PricingHomeOne({ className, modalShow }) {
                                                     <li>
                                                         <i className="fal fa-check" /> Employee Comparision Score
                                                     </li>
-                                                    <li>
+                                                    {/* <li>
                                                         <i className="fal fa-check" /> Automated Reminder
-                                                    </li>
+                                                    </li> */}
                                                     {/* <li>
                                                         <i className="fal fa-check" /> Whatsapp Reminder (API#)
                                                     </li> */}
                                                     <li>
-                                                        <i className="fal fa-check" /> Upto 20 Users
+                                                        <i className="fal fa-check" /> Upto 10 Users
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> Storage Space <br />(Upto 5 GB)*
+                                                        <i className="fal fa-check" /> <b>Storage Space <br />(Upto 5 GB)*</b>
                                                     </li>
                                                 </ul>
                                                 <div className="pricing-btn mt-35">
@@ -188,6 +188,7 @@ function PricingHomeOne({ className, modalShow }) {
                                         <div className="pricing-one__single">
                                             <div className="pricig-heading express">
                                                 <h6>Business Express</h6>
+                                                <h5 className='express'>With Dedicated Account Manager</h5>
                                                 <div className="price-range">
                                                     <sup>&#8377;</sup> <span>17,999</span>
                                                     <p>/month <mark className='bg-transparent text-danger'>**</mark></p>
@@ -212,7 +213,7 @@ function PricingHomeOne({ className, modalShow }) {
                                                         <i className="fal fa-check" /> Bottleneck Management
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> Workflows (FMS) <br />(Upto 5 FMS)
+                                                        <i className="fal fa-check" /> Workflows (FMS) <br />(Upto 10 FMS)
                                                     </li>
                                                     <li>
                                                         <i className="fal fa-check" /> Admin & Doer Dashboard
@@ -223,12 +224,12 @@ function PricingHomeOne({ className, modalShow }) {
                                                     <li>
                                                         <i className="fal fa-check" /> Doer Performance Report
                                                     </li>
-                                                    {/* <li>
+                                                    <li>
                                                         <i className="fal fa-check" /> Organisation Privilege's
                                                     </li>
                                                     <li>
                                                         <i className="fal fa-check" /> Auto Productivity Score
-                                                    </li> */}
+                                                    </li>
                                                     <li>
                                                         <i className="fal fa-check" /> Auto Notification Feature
                                                     </li>
@@ -245,10 +246,10 @@ function PricingHomeOne({ className, modalShow }) {
                                                         <i className="fal fa-check" /> Upto 20 Users
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> Storage Space <br />(Upto 10 GB)*
+                                                        <i className="fal fa-check" /> <b>Storage Space <br />(Upto 10 GB)*</b>
                                                     </li>
                                                 </ul>
-                                                <p className='mb-0 fw-bold badge badge-success fs-6 mt-3'>Dedicated Account Manager & Handler</p>
+                                                
                                                 <div className="pricing-btn mt-35">
                                                     <a className="main-btn orange-btn" href='javascript:void(0);' onClick={modalShow}>
                                                         Book A Demo
@@ -262,8 +263,9 @@ function PricingHomeOne({ className, modalShow }) {
                                     </div>
                                     <div className="col-lg-4 col-md-6">
                                         <div className="pricing-one__single">
-                                            <div className="pricig-heading enterprise">
+                                            <div className="pricig-heading enterprise"> 
                                                 <h6>Enterprise</h6>
+                                                <h5 className='exterprise'>With Implementer &amp; Onsite Consultant</h5>
                                                 <div className="price-range">
                                                     <div className='requirement'>As per Requirement</div>
                                                 </div>
@@ -295,21 +297,21 @@ function PricingHomeOne({ className, modalShow }) {
                                                     <li>
                                                         <i className="fal fa-check" /> Doer Performance Report
                                                     </li>
-                                                    {/* <li>
+                                                    <li>
                                                         <i className="fal fa-check" /> Organisation Privilege's
                                                     </li>
                                                     <li>
                                                         <i className="fal fa-check" /> Auto Productivity Score
-                                                    </li> */}
+                                                    </li>
                                                     <li>
                                                         <i className="fal fa-check" /> Auto Notification Feature
                                                     </li>
                                                     <li>
                                                         <i className="fal fa-check" /> Employee Comparision Score
                                                     </li>
-                                                    {/* <li>
+                                                    <li>
                                                         <i className="fal fa-check" /> Automated Reminder
-                                                    </li> */}
+                                                    </li>
                                                     {/* <li>
                                                         <i className="fal fa-check" /> Whatsapp Reminder (API#)
                                                     </li> */}
@@ -317,7 +319,7 @@ function PricingHomeOne({ className, modalShow }) {
                                                         <i className="fal fa-check" /> Users (As per requirement)*
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> Storage Space <br />(As per requirement)*
+                                                        <i className="fal fa-check" /> <b>Storage Space <br />(As per requirement)*</b>
                                                     </li>
                                                 </ul>
                                                 <div className="pricing-btn mt-35">

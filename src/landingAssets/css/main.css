@@ -3668,6 +3668,7 @@ p {
 .appie-traffic-service.item-4 .icon i {
   background: linear-gradient(135deg, #d8aaff 0%, #9b2cfa 100%);
 }
+
 .appie-traffic-service.item-5 .icon i {
   background: linear-gradient(135deg, #ffd5aa 0%, #faa12c 100%);
 }
@@ -4513,16 +4514,46 @@ p {
 }
 
 .pricing-one__single .pricig-heading h6 {
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 22px;
+  font-weight: 600;
   margin-bottom: 15px;
+}
+
+.pricing-one__single .pricig-heading h5 {
+  min-height: 61px;
+  display: flex;
+  align-items: center;
+}
+
+.pricing-one__single .pricig-heading h5.exterprise {
+  font-size: 17px;
+  margin-bottom: 10px;
+  /* color: #0f7204; */
+  color: #212121;
+  /* text-align: center; */
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+  /* box-shadow: 0 0 5px rgba(0,0,0,0.5); */
+  background-color: #c3e8bf;
+}
+
+.pricing-one__single .pricig-heading h5.express {
+  font-size: 17px;
+  margin-bottom: 10px;
+  /* color: #917703; */
+  color: #212121;
+  /* text-align: center; */
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+  /* box-shadow: 0 0 5px rgba(0,0,0,0.5); */
+  background-color: #f7edc2;
 }
 
 .pricing-one__single .pricig-heading .price-range {
   font-size: 24px;
   font-weight: 400;
   color: #0e1133;
-  min-height: 66px;
+  min-height: 52px;
 }
 
 .pricing-one__single .pricig-heading .price-range sup {
@@ -9548,89 +9579,105 @@ blockquote cite {
   background: rgb(167, 187, 232);
   background: linear-gradient(180deg, rgba(167, 187, 232, 1) 0%, rgba(198, 177, 236, 0.7) 50%, rgba(255, 255, 255, 0.5) 100%);
 }
+
 .feature-highlight {
   background: rgb(167, 187, 232);
   background: linear-gradient(0deg, rgba(167, 187, 232, 1) 0%, rgba(198, 177, 236, 0.7) 50%, rgba(255, 255, 255, 0.5) 100%);
 }
-.testimoniy-slider {
 
-}
+.testimoniy-slider {}
+
 .testimonial-card .card-body {
   padding: 50px 50px 30px 50px;
 }
+
 .testimonial-says {
   position: relative;
 }
+
 .testimonial-says p {
   position: relative;
   padding-left: 50px;
 }
+
 .comma-icon {
-	position: absolute;
-	top: -30px;
+  position: absolute;
+  top: -30px;
   left: -4px;
 }
+
 .spinny-image {
-	width: 250px;
-	height: 250px;
-	animation-name: spin;
-	animation-duration: 5000ms;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-	position: absolute;
-	right: -130px;
-	top: -20px;
+  width: 250px;
+  height: 250px;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  right: -130px;
+  top: -20px;
 }
+
 @keyframes spin {
   from {
-      transform:rotate(0deg);
+    transform: rotate(0deg);
   }
+
   to {
-      transform:rotate(360deg);
+    transform: rotate(360deg);
   }
 }
+
 .inner-page-wrapper {
   width: 100%;
   height: fit-content;
   overflow-x: hidden;
 }
+
 @media (max-width: 767px) {
-  .feature-list-wrap  {
+  .feature-list-wrap {
     text-align: left;
   }
+
   .feature-list-wrap .feature-list-wrap-title {
     font-size: 18px;
 
   }
+
   .feature-list-wrap .appie-traffic-service .title {
     font-size: 18px;
     padding-bottom: 0;
   }
+
   .feature-list-wrap .appie-traffic-service .icon i {
     height: 20px;
     width: 20px;
     line-height: 20px;
     font-size: 12px;
   }
+
   .feature-list-wrap .appie-traffic-service {
     padding-left: 32px;
   }
+
   .feature-list-wrap .appie-traffic-service .icon {
     top: 1px;
   }
+
   .comma-icon {
     position: absolute;
     top: -38px;
     left: -18px;
   }
+
   .testimonial-says p {
     position: relative;
     padding-left: 13px;
   }
-  
+
 }
+
 .bookDemo-form {
   background-color: rgba(240, 242, 255, 0.37);
   backdrop-filter: blur(5px);
 }
-/*# sourceMappingURL=style.css.map */
