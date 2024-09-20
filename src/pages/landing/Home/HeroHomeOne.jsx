@@ -31,14 +31,11 @@ function HeroHomeOne({ className, modalShow }) {
                                             <i className="bi bi-calendar3"></i> Book a Demo
                                         </a>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <a className="item-2" href='javascript:void(0);' onClick={modalShow}>
                                             Get Free Trial
-                                        </a>
-                                        {/* <a className="item-2" href="/register">
-                                            Get 15 Day Trial
-                                        </a> */}
-                                    </li>
+                                        </a>                                        
+                                    </li> */}
                                 </ul>
                             </div>
                         </div>

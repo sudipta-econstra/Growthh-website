@@ -101,8 +101,8 @@ function ServicesHomeOne({ className, modalShow }) {
                         </div>
                     </div>
                     <div className="col-12 text-center mt-40">
-                        <a className="main-btn" href="javascript:void(0);" onClick={modalShow}>Get Started For Free</a>
-                        {/* <a className="main-btn" href="/register">Get Started For Free</a> */}
+                        <a className="main-btn" href="javascript:void(0);" onClick={modalShow}>Get Started</a>
+                        {/* <a className="main-btn" href="/register">Get Started</a> */}
                     </div>
                 </div>
             </div>

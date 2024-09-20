@@ -31,7 +31,7 @@ function FaqHomeOne({ className }) {
                                     >
                                         <div className="accrodion-inner">
                                             <div className="accrodion-title">
-                                                <h4>Can I try task management in Growthh.in for free?</h4>
+                                                <h4>What is workflow management?</h4>
                                             </div>
                                             <div
                                                 className="accrodion-content"
@@ -41,7 +41,7 @@ function FaqHomeOne({ className }) {
                                             >
                                                 <div className="inner">
                                                     <p>
-                                                    Experience Growthh.in for free for 30 days, no credit card needed. Begin your journey with a complimentary Business trial, then simply follow the on-screen prompts to access your account!
+                                                    Workflow management refers to the coordination and automation of tasks, activities, and processes within an organization to ensure efficient and effective completion of work. It involves defining, designing, and optimizing workflows to streamline operations and enhance productivity.
                                                     </p>
                                                 </div>
                                             </div>
@@ -102,28 +102,7 @@ function FaqHomeOne({ className }) {
                                     className="accrodion-grp animated fadeIn faq-accrodion"
                                     data-grp-name="faq-accrodion"
                                 >
-                                    <div
-                                        onClick={() => openQuestion(3)}
-                                        className={`accrodion ${showQues === 3 ? 'active' : ''}`}
-                                    >
-                                        <div className="accrodion-inner">
-                                            <div className="accrodion-title">
-                                                <h4>What is workflow management?</h4>
-                                            </div>
-                                            <div
-                                                className="accrodion-content"
-                                                style={{
-                                                    display: showQues === 3 ? 'block' : 'none',
-                                                }}
-                                            >
-                                                <div className="inner">
-                                                    <p>
-                                                    Workflow management refers to the coordination and automation of tasks, activities, and processes within an organization to ensure efficient and effective completion of work. It involves defining, designing, and optimizing workflows to streamline operations and enhance productivity.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    
                                     <div
                                         onClick={() => openQuestion(4)}
                                         className={`accrodion ${showQues === 4 ? 'active' : ''}`}
