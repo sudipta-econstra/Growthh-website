@@ -9,6 +9,7 @@ import client3 from '../../../landingAssets/images/clients/Shitla-papers.jpg';
 import client4 from '../../../landingAssets/images/clients/RAS-Builders.jpg';
 import client5 from '../../../landingAssets/images/clients/JENSONS-INTERNATIONAL.jpg';
 import client6 from '../../../landingAssets/images/clients/Sharen-Plywood.jpg';
+import client7 from '../../../landingAssets/images/clients/Supreme-steels-forgings.jpg';
 
 function ClientsHome({ className }) {
     const sliderRef = useRef();
@@ -86,22 +87,25 @@ function ClientsHome({ className }) {
                             </span>
                             <Slider ref={sliderRef} {...sliderSettings}>
                                 <div className="client-item-wrap text-center">
-                                    <img src={client1} alt="Clients" className='client-logo' />
+                                    <img src={client7} alt="Clients" className='client-logo' />
                                 </div>
                                 <div className="client-item-wrap text-center">
-                                    <img src={client2} alt="Clients" className='client-logo' />
-                                </div>
-                                <div className="client-item-wrap text-center">
-                                    <img src={client3} alt="Clients" className='client-logo' />
-                                </div>
-                                <div className="client-item-wrap text-center">
-                                    <img src={client4} alt="Clients" className='client-logo' />
+                                    <img src={client6} alt="Clients" className='client-logo' />
                                 </div>
                                 <div className="client-item-wrap text-center">
                                     <img src={client5} alt="Clients" className='client-logo' />
                                 </div>
                                 <div className="client-item-wrap text-center">
-                                    <img src={client6} alt="Clients" className='client-logo' />
+                                    <img src={client4} alt="Clients" className='client-logo' />
+                                </div>
+                                <div className="client-item-wrap text-center">
+                                    <img src={client3} alt="Clients" className='client-logo' />
+                                </div>
+                                <div className="client-item-wrap text-center">
+                                    <img src={client2} alt="Clients" className='client-logo' />
+                                </div>
+                                <div className="client-item-wrap text-center">
+                                    <img src={client1} alt="Clients" className='client-logo' />
                                 </div>
                             </Slider>
                             <span
