@@ -21,6 +21,7 @@ function TestimonialHomeOne({ className }) {
             id="testimonial"
         >
             <div className="container">
+            <h2 className="title text-center mb-4 text-white">Our Happy Clients</h2>
                 <div className="row justify-content-center">
                     <div className="col-lg-8">
                         <div className="appie-testimonial-slider" style={{ position: 'relative' }}>

@@ -21,6 +21,7 @@ import Modal from 'react-bootstrap/Modal';
 import WhatsappCta from './WhatsappCta.js';
 import { Axios } from '../../auth/Enviroment.js';
 import { toast } from 'react-toastify';
+import ClientsHome from './ClientsHome.jsx';
 
 
 
@@ -64,6 +65,7 @@ function Index() {
             <Drawer drawer={drawer} action={drawerAction.toggle} />
             <HomeOneHeader action={drawerAction.toggle} modalShow={handleShow} />
             <HeroHomeOne modalShow={handleShow} />
+            <ClientsHome/>
             <AboutUs modalShow={handleShow} />
             <ServicesHomeOne modalShow={handleShow} />
             <FeaturesHomeOne modalShow={handleShow} />
