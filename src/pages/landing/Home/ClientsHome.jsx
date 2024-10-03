@@ -15,7 +15,7 @@ import client9 from '../../../landingAssets/images/clients/krishnam.webp';
 import client10 from '../../../landingAssets/images/clients/bharat-enivlo.webp';
 import client11 from '../../../landingAssets/images/clients/sheetal-batra.webp';
 import client12 from '../../../landingAssets/images/clients/importikaah.webp';
-import client13 from '../../../landingAssets/images/clients/importikaah.webp';
+import client13 from '../../../landingAssets/images/clients/threadbucketstudio.webp';
 
 function ClientsHome({ className }) {
     const sliderRef = useRef();
