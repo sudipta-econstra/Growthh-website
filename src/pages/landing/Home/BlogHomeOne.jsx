@@ -12,7 +12,7 @@ function BlogHomeOne({ className }) {
     const [data, setData] = useState([])
     const fetchData = async () => {
         try {
-            const response = await axios.get("https://growthh.in/blog/wp-json/wp/v2/posts?orderby=date&order=desc&_embed=author,categories", {
+            const response = await axios.get("https://growthh.in/blog/wp-json/wp/v2/posts?per_page=6&orderby=date&order=desc&_embed=author,categories", {
                 headers: {
                     'Content-Type': 'application/json',
                 },
