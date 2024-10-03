@@ -4528,25 +4528,48 @@ p {
 .pricing-one__single .pricig-heading h5.exterprise {
   font-size: 17px;
   margin-bottom: 10px;
-  /* color: #0f7204; */
   color: #212121;
-  /* text-align: center; */
   padding: 10px;
   border-radius: 10px 10px 10px 10px;
-  /* box-shadow: 0 0 5px rgba(0,0,0,0.5); */
   background-color: #c3e8bf;
+  font-weight: 700;
 }
 
 .pricing-one__single .pricig-heading h5.express {
   font-size: 17px;
   margin-bottom: 10px;
-  /* color: #917703; */
   color: #212121;
-  /* text-align: center; */
   padding: 10px;
   border-radius: 10px 10px 10px 10px;
-  /* box-shadow: 0 0 5px rgba(0,0,0,0.5); */
   background-color: #f7edc2;
+  font-weight: 700;
+}
+.pricing-one__single .pricig-heading h5.three {
+  font-size: 17px;
+  margin-bottom: 10px;
+  color: #212121;
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #ffd8d1;
+  font-weight: 700;
+}
+.pricing-one__single .pricig-heading h5.two {
+  font-size: 17px;
+  margin-bottom: 10px;
+  color: #212121;
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #f7edc2;
+  font-weight: 700;
+}
+.pricing-one__single .pricig-heading h5.one {
+  font-size: 17px;
+  margin-bottom: 10px;
+  color: #212121;
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #dfdfdf;
+  font-weight: 700;
 }
 
 .pricing-one__single .pricig-heading .price-range {

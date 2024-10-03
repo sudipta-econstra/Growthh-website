@@ -12,6 +12,9 @@ import client6 from '../../../landingAssets/images/clients/Sharen-Plywood.jpg';
 import client7 from '../../../landingAssets/images/clients/Supreme-steels-forgings.jpg';
 import client8 from '../../../landingAssets/images/clients/samvruddi.webp';
 import client9 from '../../../landingAssets/images/clients/krishnam.webp';
+import client10 from '../../../landingAssets/images/clients/bharat-enivlo.webp';
+import client11 from '../../../landingAssets/images/clients/sheetal-batra.webp';
+import client12 from '../../../landingAssets/images/clients/importikaah.webp';
 
 function ClientsHome({ className }) {
     const sliderRef = useRef();
@@ -69,7 +72,7 @@ function ClientsHome({ className }) {
 
     return (
         <section
-            className={`clients-area pt-60 pb-110 ${className || ''}`}
+            className={`clients-area pt-60 pb-60 ${className || ''}`}
             id="clients"
         >
             <div className="star-img">
@@ -90,6 +93,15 @@ function ClientsHome({ className }) {
                                 <i className="fal fa-arrow-left" />
                             </span>
                             <Slider ref={sliderRef} {...sliderSettings}>
+                                <div className="client-item-wrap text-center">
+                                    <img src={client12} alt="Clients" className='client-logo' />
+                                </div>
+                                <div className="client-item-wrap text-center">
+                                    <img src={client11} alt="Clients" className='client-logo' />
+                                </div>
+                                <div className="client-item-wrap text-center">
+                                    <img src={client10} alt="Clients" className='client-logo' />
+                                </div>
                                 <div className="client-item-wrap text-center">
                                     <img src={client9} alt="Clients" className='client-logo' />
                                 </div>
