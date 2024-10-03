@@ -29,6 +29,8 @@ function ClientsHome({ className }) {
         speed: 500,
         slidesToShow: 5, // Default number of slides
         slidesToScroll: 1,
+        autoplay: true, 
+        autoplaySpeed: 3000,
         responsive: [
             {
                 breakpoint: 1200, // For screens smaller than 1200px
