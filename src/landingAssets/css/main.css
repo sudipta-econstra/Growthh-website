@@ -9696,6 +9696,37 @@ blockquote cite {
   right: -50px;
   animation: MoveLeftRight 2s linear infinite alternate;
 }
+.clients-area .slick-dots li {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+}
+.clients-area .slick-dots {
+  display: none !important;
+}
+.clients-area .appie-testimonial-slider-rtl .slick-arrow, .clients-area .appie-testimonial-slider .slick-arrow {
+  top: 49%;
+}
+.clients-area .appie-testimonial-slider-rtl .slick-arrow.next, .clients-area .appie-testimonial-slider .slick-arrow.next {
+  right: -40px;
+}
+.clients-area .appie-testimonial-slider-rtl .slick-arrow.prev, .clients-area .appie-testimonial-slider .slick-arrow.prev {
+  left: -40px;
+}
+@media (max-width:767px) {
+  .clients-area .appie-testimonial-slider-rtl .slick-arrow.prev, .clients-area .appie-testimonial-slider .slick-arrow.prev {
+    left: -9px;
+    color: #000;
+    opacity: 1;
+    font-size: 20px;
+  }
+  .clients-area .appie-testimonial-slider-rtl .slick-arrow.next, .clients-area .appie-testimonial-slider .slick-arrow.next {
+    right: -9px;
+    color: #000;
+    opacity: 1;
+    font-size: 20px;
+  }
+}
 @media (max-width:1024px) {
   .clients-area .star-img {
     width: 100px;

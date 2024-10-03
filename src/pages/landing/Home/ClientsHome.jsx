@@ -10,6 +10,8 @@ import client4 from '../../../landingAssets/images/clients/RAS-Builders.jpg';
 import client5 from '../../../landingAssets/images/clients/JENSONS-INTERNATIONAL.jpg';
 import client6 from '../../../landingAssets/images/clients/Sharen-Plywood.jpg';
 import client7 from '../../../landingAssets/images/clients/Supreme-steels-forgings.jpg';
+import client8 from '../../../landingAssets/images/clients/samvruddi.webp';
+import client9 from '../../../landingAssets/images/clients/krishnam.webp';
 
 function ClientsHome({ className }) {
     const sliderRef = useRef();
@@ -29,7 +31,7 @@ function ClientsHome({ className }) {
         speed: 500,
         slidesToShow: 5, // Default number of slides
         slidesToScroll: 1,
-        autoplay: true, 
+        autoplay: true,
         autoplaySpeed: 3000,
         responsive: [
             {
@@ -88,6 +90,12 @@ function ClientsHome({ className }) {
                                 <i className="fal fa-arrow-left" />
                             </span>
                             <Slider ref={sliderRef} {...sliderSettings}>
+                                <div className="client-item-wrap text-center">
+                                    <img src={client9} alt="Clients" className='client-logo' />
+                                </div>
+                                <div className="client-item-wrap text-center">
+                                    <img src={client8} alt="Clients" className='client-logo' />
+                                </div>
                                 <div className="client-item-wrap text-center">
                                     <img src={client7} alt="Clients" className='client-logo' />
                                 </div>
