@@ -80,7 +80,7 @@ function ClientsHome({ className }) {
                 <img src={star} alt="shape" className='img-fluid' />
             </div>
             <div className="container">
-                <h2 className="title text-center text-white mb-4">Trusted By 256+ Companies</h2>
+                <h2 className="title text-center text-white mb-4">Trusted By 370+ Companies</h2>
                 <div className="row justify-content-center">
                     <div className="col-lg-12">
                         <div className="appie-testimonial-slider" style={{ position: 'relative' }}>
