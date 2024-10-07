@@ -17,6 +17,7 @@ import client11 from '../../../landingAssets/images/clients/sheetal-batra.webp';
 import client12 from '../../../landingAssets/images/clients/importikaah.webp';
 import client13 from '../../../landingAssets/images/clients/threadbucketstudio.webp';
 import client14 from '../../../landingAssets/images/clients/ishum.webp';
+import client15 from '../../../landingAssets/images/clients/infinity-investments.webp';
 
 function ClientsHome({ className }) {
     const sliderRef = useRef();
@@ -95,6 +96,9 @@ function ClientsHome({ className }) {
                                 <i className="fal fa-arrow-left" />
                             </span>
                             <Slider ref={sliderRef} {...sliderSettings}>
+                                <div className="client-item-wrap text-center">
+                                    <img src={client15} alt="Clients" className='client-logo' />
+                                </div>
                                 <div className="client-item-wrap text-center">
                                     <img src={client14} alt="Clients" className='client-logo' />
                                 </div>
