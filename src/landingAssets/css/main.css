@@ -9795,3 +9795,26 @@ blockquote cite {
   0% { transform: translate(0, -0%); }
   100% { transform: translate(); }
 }
+.bullets-lists {
+  padding: 0;
+  margin: 0;  
+}
+.bullets-lists li {
+  font-size: 18px;
+  position: relative;
+  display: block !important;
+  padding-left: 27px;
+}
+.bullets-lists li + li {
+  margin-top: 5px;
+}
+.bullets-lists li:after {
+  content: '';
+  position: absolute;
+  left: 2px;
+  top: 6px;
+  width: 14px;
+  height: 14px;
+  background-color: #f8452d;
+  border-radius: 10px 10px 0 10px;
+}

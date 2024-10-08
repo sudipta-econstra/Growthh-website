@@ -30,6 +30,7 @@ import AdminModule from '../pages/admin/AdminModule';
 import AdminCompany from '../pages/admin/AdminCompany';
 import AdminReport from '../pages/admin/AdminReport';
 import Page404 from '../pages/PageNotFound/Page404';
+import LandingBusinessTaskAutomationSoftware from '../pages/BusinessTaskAutomationSoftware/LandingBusinessTaskAutomationSoftware';
 
 
 
@@ -156,6 +157,10 @@ const router = createBrowserRouter(
         {
             path: '/business-management-software',
             element: <LandingBusinessManagementSoftware />
+        },
+        {
+            path: '/business-task-automation-software',
+            element: <LandingBusinessTaskAutomationSoftware />
         },
         {
             element: <ProtectedRoute />,
