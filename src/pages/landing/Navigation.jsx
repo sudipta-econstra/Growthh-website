@@ -27,7 +27,7 @@ function Navigation({ lang = false, modalShow }) {
                 } */}
                 <li>
                         <a href="/">
-                            Features
+                            Features <i className="fal fa-angle-down"></i>
                         </a>
                         <ul className="sub-menu">
                             <li>

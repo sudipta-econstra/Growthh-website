@@ -84,7 +84,7 @@ function LandingBusinessTaskAutomationSoftware() {
       <LnBusinessTaskAutomationSoftware />
       <FaqHomeOne />
       <ProjectHomeOne />
-      <FooterHomeOne />
+      <FooterHomeOne modalShow={handleShow}/>
       <BackToTop />
       <WhatsappCta />
 
