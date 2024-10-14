@@ -3,13 +3,13 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
 import star from '../../../landingAssets/images/star.png';
-import client1 from '../../../landingAssets/images/clients/DS-Construction.jpg';
-import client2 from '../../../landingAssets/images/clients/Jagannath-Polymers-Pvt-Ltd.jpg';
-import client3 from '../../../landingAssets/images/clients/Shitla-papers.jpg';
-import client4 from '../../../landingAssets/images/clients/RAS-Builders.jpg';
-import client5 from '../../../landingAssets/images/clients/JENSONS-INTERNATIONAL.jpg';
-import client6 from '../../../landingAssets/images/clients/Sharen-Plywood.jpg';
-import client7 from '../../../landingAssets/images/clients/Supreme-steels-forgings.jpg';
+import client1 from '../../../landingAssets/images/clients/DS-Construction.webp';
+import client2 from '../../../landingAssets/images/clients/Jagannath-Polymers-Pvt-Ltd.webp';
+import client3 from '../../../landingAssets/images/clients/Shitla-papers.webp';
+import client4 from '../../../landingAssets/images/clients/RAS-Builders.webp';
+import client5 from '../../../landingAssets/images/clients/JENSONS-INTERNATIONAL.webp';
+import client6 from '../../../landingAssets/images/clients/Sharen-Plywood.webp';
+import client7 from '../../../landingAssets/images/clients/Supreme-steels-forgings.webp';
 import client8 from '../../../landingAssets/images/clients/samvruddi.webp';
 import client9 from '../../../landingAssets/images/clients/krishnam.webp';
 import client10 from '../../../landingAssets/images/clients/bharat-enivlo.webp';
@@ -19,6 +19,8 @@ import client13 from '../../../landingAssets/images/clients/threadbucketstudio.w
 import client14 from '../../../landingAssets/images/clients/ishum.webp';
 import client15 from '../../../landingAssets/images/clients/infinity-investments.webp';
 import client16 from '../../../landingAssets/images/clients/hitcos.webp';
+import client17 from '../../../landingAssets/images/clients/beck&politizer.webp';
+import client18 from '../../../landingAssets/images/clients/electrowaves-electronics.webp';
 
 function ClientsHome({ className }) {
     const sliderRef = useRef();
@@ -97,6 +99,12 @@ function ClientsHome({ className }) {
                                 <i className="fal fa-arrow-left" />
                             </span>
                             <Slider ref={sliderRef} {...sliderSettings}>
+                                <div className="client-item-wrap text-center">
+                                    <img src={client18} alt="Clients" className='client-logo' />
+                                </div>
+                                <div className="client-item-wrap text-center">
+                                    <img src={client17} alt="Clients" className='client-logo' />
+                                </div>
                                 <div className="client-item-wrap text-center">
                                     <img src={client16} alt="Clients" className='client-logo' />
                                 </div>
