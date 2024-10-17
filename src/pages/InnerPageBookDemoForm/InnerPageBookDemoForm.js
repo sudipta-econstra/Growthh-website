@@ -58,7 +58,7 @@ function InnerPageBookDemoForm({ setLoading }) {
                     <div className='col-12'>
                         <div className='form-group'>
                             <label className='form-label'>Any Specific Requirement:</label>
-                            <textarea required className='form-control' placeholder='What are you say ?' rows="3" onChange={(e) => setValue({ ...value, requirement: e.target.value })}></textarea>
+                            <textarea required className='form-control' placeholder='Kindly write your business requirement here.' rows="3" onChange={(e) => setValue({ ...value, requirement: e.target.value })}></textarea>
                         </div>
                     </div>
                     <div className='col-12'>
