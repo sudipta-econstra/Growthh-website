@@ -67,7 +67,7 @@ function PricingHomeOne({ className, modalShow }) {
                                                         <i className="fal fa-check" /> Bottleneck Management
                                                     </li>
                                                     <li>
-                                                        <i className="fal fa-check" /> Workflows (FMS) <br />(Upto 5 FMS)
+                                                        <i className="fal fa-check" /> Workflows (FMS) <br />(Upto 2 FMS)
                                                     </li>
                                                     <li>
                                                         <i className="fal fa-check" /> Admin & Doer Dashboard
@@ -97,7 +97,7 @@ function PricingHomeOne({ className, modalShow }) {
                                                         <i className="fal fa-check" /> Whatsapp Reminder (API#)
                                                     </li> */}
                                                     <li>
-                                                        <i className="fal fa-check" /> Upto 15 Users
+                                                        <i className="fal fa-check" /> Upto 5 Users
                                                     </li>
                                                     <li>
                                                         <i className="fal fa-check" /> <b>Storage Space <br />(Upto 5 GB)*</b>
@@ -171,7 +171,7 @@ function PricingHomeOne({ className, modalShow }) {
                                                         <i className="fal fa-check" /> Whatsapp Reminder (API#)
                                                     </li> */}
                                                     <li>
-                                                        <i className="fal fa-check" /> Upto 25 Users
+                                                        <i className="fal fa-check" /> Upto 20 Users
                                                     </li>
                                                     <li>
                                                         <i className="fal fa-check" /> <b>Storage Space <br />(Upto 10 GB)*</b>
