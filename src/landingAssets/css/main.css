@@ -9820,3 +9820,9 @@ blockquote cite {
   background-color: #f8452d;
   border-radius: 10px 10px 0 10px;
 }
+#google_translate_element {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 100000;
+}
