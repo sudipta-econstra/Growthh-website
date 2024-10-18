@@ -21,6 +21,7 @@ import client15 from '../../../landingAssets/images/clients/infinity-investments
 import client16 from '../../../landingAssets/images/clients/hitcos.webp';
 import client17 from '../../../landingAssets/images/clients/beck&politizer.webp';
 import client18 from '../../../landingAssets/images/clients/electrowaves-electronics.webp';
+import client19 from '../../../landingAssets/images/clients/dev-plastics.webp';
 
 function ClientsHome({ className }) {
     const sliderRef = useRef();
@@ -99,6 +100,9 @@ function ClientsHome({ className }) {
                                 <i className="fal fa-arrow-left" />
                             </span>
                             <Slider ref={sliderRef} {...sliderSettings}>
+                                <div className="client-item-wrap text-center">
+                                    <img src={client19} alt="Clients" className='client-logo' />
+                                </div>
                                 <div className="client-item-wrap text-center">
                                     <img src={client18} alt="Clients" className='client-logo' />
                                 </div>
